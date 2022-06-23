@@ -1,0 +1,10863 @@
+/* ==UserStyle==
+@name         Dark_RoboHumster Light Minth 
+@version      20220614.18.47
+@namespace    https://github.com/Schwartz13/Theme-Pack---RH
+@description  Мягкая и приятная тема, forum.Robo-Hamster.com
+/
+Сделано с любовью от кукурузова.
+/
+@author       Aleks Kutuzov / Баг репорт >> https://vk.com/id260486609
+@license      No License
+==/ Desc  */
+
+@-moz-document domain("forum.robo-hamster.com") {
+:root {
+    --input-border-heavy: #191919;
+    --input-border-light: #2d2d2d;
+}    
+ .xtr-message-block {
+    color: #d6d6d6;
+    position: relative;
+    height: 100%;
+    margin-top: -70.6px;
+    padding: 75px 0;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.p-nav.xtr-nav-logo {
+    background: #272727;
+    border-bottom: 1px solidrgba(255,255,255,0.1);
+    overflow: hidden;
+}
+.p-nav-inner {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+    background: #272727;
+}
+.p-nav {
+    color: #d6d6d6;
+    background: #272727;
+}
+.p-nav a {
+    color: #d6d6d6;
+}
+.p-nav-scroller .hScroller-action.hScroller-action--end {
+    background: #272727;
+}
+.p-nav-scroller .hScroller-action {
+    color: #d6d6d6;
+}
+.p-nav-scroller .hScroller-action.hScroller-action--start {
+    background: #272727;
+}
+.message-wave .shape-fill.shape-fill-1 {
+    fill: #191919;
+}
+.p-body {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    min-height: 1px;
+    background: #191919;
+}
+.menu-linkRow {
+    display: block;
+    padding: 6px 15px 6px 12px;
+    border-left: 3px solid transparent;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #2d2d2dc9;
+}
+.menu-header {
+    padding: 10px 15px;
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    color: #dae1f3;
+    background: #3b425c;
+    border-bottom: 1px solid #171b2a;
+    background: linear-gradient(0deg, #191919, #191919);
+}
+.tabs--standalone {
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #2d2d2d;
+    border-right-color: #2d2d2d;
+    border-bottom-color: #63b2654a;
+    border-left-color: #2d2d2d;
+    font-size: 14px;
+    color: #d5d5d5;
+    background: #2d2d2d;
+    font-size: 0;
+}
+.tabs--standalone .tabs-tab.is-active {
+    color: #00ba78;
+    border-color: #00ba78;
+}
+.structItem.structItem--note .structItem-cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    background: #191919;
+}
+.block-outer{
+    background:#191919;
+}
+.block-filterBar .filterBar-filterToggle {
+    background: #101010;
+    border-radius: 15px;
+}
+.memberOverviewBlock-seeMore {
+    background: #191919;
+    border: 1px solid #191919;
+    padding: 3px;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 15px;
+}
+.block-textHeader a {
+    color: #228e5d;
+    text-decoration: none;
+}
+.blockLink.is-selected {
+    font-weight: 700;
+    background: #2d2d2d;
+    border-left: 4px solid #228e5d;
+    padding-left: 7px;
+}
+.p-nav-list .p-navEl.is-menuOpen a {
+    text-decoration: none;
+    opacity: 1;
+    background: #272727;
+}
+.p-navgroup-link.is-menuOpen {
+    color: #ffffff;
+    text-decoration: none;
+    background: #484848;
+    box-shadow: 0 5px 10px 0rgba(0,0,0,0.35);
+    opacity: 1;
+}
+.menu-tabHeader {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    color: #dae1f3;
+    background: #484848;
+    border-bottom: 1px solid #228e5d;
+    font-size: 0;
+}
+.menu-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    color: #dae1f3;
+    background: #323232;
+    border-radius: 3px;
+    border-top: 3px solid #228e5d;
+}
+.menu-tabHeader .tabs-tab.is-active {
+    color: #ffffff;
+    border-color: #6af5b6;
+}
+.menu-row.menu-row--alt {
+    color: #fdfdfd;
+    background: #323232;
+}
+.menu-footer {
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #191919;
+    border-top: 1px solid #228e5d;
+}
+
+.tooltip--preview .tooltip-content-inner .tooltip-content-cover {
+    background: linear-gradient(to bottom, rgba(39,46,72,0) 160px, #2d2d2d 200px);
+}
+.tooltip--preview .tooltip-content {
+    color: #ffffff;
+    background: #191919;
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #383737;
+    box-shadow: 0 5px 10px 0rgba(0,0,0,0.35);
+}
+.memberTooltip-separator {
+	border-color: #228e5d; 
+}
+.memberTooltip-header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 6px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #228e5d;
+}
+.contentRow-minor {
+    font-size: 13px;
+    color: #c2c7d1;
+}
+.pairs>dt {
+    padding: 0;
+    margin: 0;
+    color: #e1dfdf;
+}
+.structItem-minor {
+    font-size: 12px;
+    color: #bcbdbf;
+}
+.p-breadcrumbs {
+    font-size: 12px;
+    color: #d6d6d6;
+    background: #2d2d2d;
+    border-color: #00ba78;
+    border-width: 1px;
+    border-radius: 15px;
+    overflow: hidden;
+    line-height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 0;
+}
+.block-header {
+    padding: 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    color: #d6d6d6;
+    background: #202020;
+    border-bottom: 1px solid #202020;
+    border-radius: 15px;
+    
+}
+.block {
+    background: #2d2d2d;
+    border-radius: 20px;
+}
+.block-container {
+    color: #dae1f3;
+    background: #2d2d2d;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #2d2d2d;
+    border-right-color: #2d2d2d;
+    border-bottom-color: #2d2d2d;
+    border-left-color: #2d2d2d;
+    border-radius: 15px;
+}
+.p-body-main--withSidebar .p-body-content {
+    flex: 1 1 auto;
+    display: block;
+    width: calc(100% - 260px);
+    padding-right: 20px;
+    background: #191919;
+}
+.node-title>a {
+    position: relative;
+    color: #00ba78;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+.block-container:not(.block-container--noStripRadius)>:first-child, .block-topRadiusContent, .block-container:not(.block-container--noStripRadius)>.block-body:first-child>.blockLink:first-child {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.quick-access .button {
+    padding: 1px 0;
+    width: 100%;
+    heigth: 1px;
+    border: 1px solid #2d2d2d;
+    min-height: 30px;
+    border-radius: 14px;
+    background: #228e5d;
+}
+.p-body-sidebar .block-row:nth-child(n) {
+    border-top: 1px solid #00ba784f;
+}
+.block-footer {
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #d6d6d6;
+    border-top: 1px solid #171b2a;
+    background: linear-gradient(180deg, #2d2d2d, #2d2d2d);
+}
+.block-minorHeader {
+    padding: 10px 10px;
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: unset;
+    color: #17ba78;
+    background: #2d2d2d;
+    border-radius: 15px;
+    border-color: #2d2d2d;
+}
+.input {
+    font-size: 14px;
+    color: #d6d6d6;
+    background: #191919;
+    border: 1px solid #2d2d2d;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: left;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all .25s ease;
+}
+.fr-toolbar .fr-btn-grp {
+    --hpadding: 12px;
+    display: inline-flex;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #272727;
+    margin: 0;
+    padding: 4px 0 0 12px;
+    padding: 4px 0 0var(--hpadding);
+    background: #272727;
+}
+.fr-element {
+    background: #2d2d2dbd;
+    position: relative;
+    z-index: 2;
+    -webkit-user-select: auto;
+}
+.fr-box.fr-basic {
+    background: #2f3650;
+    border: solid 1px #272727;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.button.button--primary, a.button.button--primary {
+    color: #fff;
+    background: #228e5d;
+    min-width: 80px;
+    border-color: #228e5d;
+    border-radius: 15px;
+}
+.button.button--cta, a.button.button--cta {
+    color: #f5f5f5;
+    background: #228e5d;
+    border-radius: 15px;
+}
+.button, a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color .25s ease;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    text-align: center;
+    color: #f5f5f5;
+    background: #202020;
+    border-radius: 15px;
+    border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d;
+}
+.pageNav-page.pageNav-page--current {
+    background: #228e5d;
+    color: #f5f5f5;
+    border: 1px solid #228e5d;
+    cursor: pointer;
+}
+#XF .pageNav-jump, #XF .pageNav-page, #XF .pageNavSimple-el {
+    background: #118550fa;
+    color: #f5f5f5;
+    border-width: 0px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 1px, rgb(0 0 0 / 5%) 0px 1px 2px;
+    border-radius: 12px;
+}
+.contentRow-fader {
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background: transparent;
+    background: linear-gradient(to bottom, rgba(39,46,72,0) 0%, #2d2d2d 80%);
+}
+.span.button.is-disabled {
+    background: #202020;
+}
+span.button.is-disabled {
+	background: #202020; /* do */
+}
+.button.is-disabled, a.button.is-disabled {
+	background: #202020;
+}
+.button.is-disabled, a.button.is-disabled {
+    color: #f5f5f5;
+    background: #202020;
+    cursor: default;
+    border-color: #228e5d;
+}
+.button, .is-disabled {
+	cursor: default;
+    border-color: #228e5d;
+	background: #228e5d;
+	color: #f5f5f5;
+}
+.message-cell.message-cell--user, .message-cell.message-cell--action {
+    position: relative;
+    background: #2d2d2d;
+    border-right: 1px solid #228e5d4d;
+    min-width: 0;
+    border-top-left-radius: 14px;
+}
+.message-userArrow:after {
+    position: absolute;
+    top: -9px;
+    right: -10px;
+    content: "";
+    border: 9px solid transparent;
+    border-left-width: 0;
+    border-right-color: #228e5d4d;
+}
+.block--messages .message-inner:first-of-type .message-cell:first-child {
+    border-top-left-radius: 12px;
+}
+.formSubmitRow.formSubmitRow--simple .formSubmitRow-controls, .formSubmitRow.formSubmitRow--standalone .formSubmitRow-controls {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    background: #2d2f36;
+}
+.block--messages .message, .block--messages .block-row {
+    color: #ffffff;
+    background: #272727;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #62ecae75; 
+    border-right-color: #2d2d2d;
+    border-bottom-color: #2d2d2d;
+    border-left-color: #2d2d2d;
+    border-radius: 16px;
+}
+.u-dt[title] {
+    border: none;
+    text-decoration: none;
+    color: #f7f5f5;
+}
+.message-attribution {
+    color: #bbb9b9;
+    font-size: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #228e5d80;
+    background: #272727;
+}
+.message-lastEdit {
+    margin-top: 0.5em;
+    color: #a3a7a6;
+    font-size: 13px;
+    text-align: right;
+}
+.block-filterBar {
+    padding: 10px 10px;
+    font-size: 13px;
+    color: #f5f5f5;
+    background: #2d2d2d;
+    border-bottom: 1px solid #63b26547;
+}
+.reactionsBar {
+    transition: all .25s ease, -xf-opacity .25s ease;
+    transition-property: all,-xf-height;
+    background: #403f3f;
+    border: 1px solid #2d2d2d;
+    border-left: 2px solid #403f3f;
+    font-size: 12px;
+    border-radius: 14px;
+}
+.separate_thread_important {
+    color: #f5f5f5;
+    background: #191919;
+    border-left: 4px solid #228e5d;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 0px;
+    box-shadow: 0 1pxrgba(255,255,255,0.1),inset 0 1px 2pxrgba(80,80,80,0.3);
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+}
+.structItem {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-top: 1px solid #63b26547;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.structItemContainer .structItemContainer-group--sticky .structItem--thread {
+    border-left: 5px solid #00ba78;
+}
+.notice.notice--primary {
+    color: #ff0000;
+    background: #2d2d2d;
+    box-shadow: 0 0 10px 3pxrgba(0,0,0,0.1);
+}
+.blockStatus {
+    color: #dadbdd;
+    background: #2d2d2d;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2d2d2d;
+    border-left: 4px solid #e60000;
+    border-radius: 4px;
+    margin: 0;
+    padding: 6px 0;
+    font-size: 13px;
+    text-align: left;
+}
+.blockStatus-message:first-of-type {
+    margin-top: 0;
+    background: #2d2d2d;
+}
+.bbTable>table>thead>tr>td, .bbTable>table>tbody>tr>td {
+    background: #191919;
+    border: 1px solid #191919;
+    padding: 3px;
+}
+.bbTable>table>thead>tr>th, .bbTable>table>tbody>tr>th {
+    background: #191919;
+    border: 1px solid #1e2337;
+    border-bottom-color: #228e5d;
+    border-bottom-width: 2px;
+    padding: 3px;
+}
+.bbCodeBlock-title {
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #ea4c4c;
+    background: #525151;
+}
+.bbCodeBlock-content {
+    position: relative;
+    padding: 6px 10px;
+    background: #302f2f;
+}
+.bbCodeBlock.bbCodeBlock--quote .bbCodeBlock-content {
+    font-size: 13px;
+    background: #525151;
+}
+#XF .block--messages .message .message-content a {
+    color: #9ffbd1;
+}
+.message-signature {
+    margin-top: 10px;
+    font-size: 12px;
+    border-top: 1px solid #228e5d80;
+    padding-top: 3px;
+}
+.bbCodeBlock-expandLink {
+    display: none;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    height: 75px;
+    cursor: pointer;
+    z-index: 100;
+    background: transparent;
+    background: linear-gradient(to bottom, rgba(33,39,60,0) 0%, #1a1a1a 80%);
+}
+.xfPreview {
+	background: #272727;
+}
+.block-tabHeader {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    /* font-size: 14px; */
+    color: #dae1f3;
+    background: #2d2d2d;
+    font-size: 0;
+}
+.memberHeader-content {  /* - */
+    padding: 10px;
+    padding-left: 212px;
+    background: linear-gradient(0deg, #ff000000, #191919);
+}
+.message-cell, .message-cell--main {
+	border-color: #2d2d2d;
+}
+
+.block-tabHeader .tabs-tab.is-active {
+    background: none;
+    color: #eef8ed;
+    border-color: #9bf7cd;
+}
+.message-responseRow {
+    margin-top: -1px;
+    background: #2d2d2d;
+    border: 1px solid #191919;
+    padding: 6px;
+    border-radius: 5px;
+}
+.dataList-row.dataList-row--header .dataList-cell {
+    font-size: 12px;
+    color: #dae1f3;
+    font-weight: 700;
+    background: rgb(25 25 25);
+    border-bottom: 1px solid #191919;
+    text-transform: none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 5px 10px;
+    text-align: left;
+    border-radius: px;
+}
+.dataList-cell {
+    vertical-align: middle;
+    padding: 10px 10px;
+    border-bottom: 1px solid #228e5d70;
+    
+}
+.block-container:not(.block-container--noStripRadius)>.block-body:first-child>.dataList:first-child tbody:first-child .dataList-row:first-child>.dataList-cell:first-child, .block-topRadiusContent.dataList tbody:first-child .dataList-row:first-child>.dataList-cell:first-child, .block-topRadiusContent>.dataList:first-child tbody:first-child .dataList-row:first-child>.dataList-cell:first-child, .block-container:not(.block-container--noStripRadius)>.block-body:first-child>.dataList:first-child thead:first-child .dataList-row:first-child>.dataList-cell:first-child, .block-topRadiusContent.dataList thead:first-child .dataList-row:first-child>.dataList-cell:first-child, .block-topRadiusContent>.dataList:first-child thead:first-child .dataList-row:first-child>.dataList-cell:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    
+}
+.block-container:not(.block-container--noStripRadius)>.block-body:first-child>.dataList:first-child tbody:first-child .dataList-row:first-child>.dataList-cell:last-child, .block-topRadiusContent.dataList tbody:first-child .dataList-row:first-child>.dataList-cell:last-child, .block-topRadiusContent>.dataList:first-child tbody:first-child .dataList-row:first-child>.dataList-cell:last-child, .block-container:not(.block-container--noStripRadius)>.block-body:first-child>.dataList:first-child thead:first-child .dataList-row:first-child>.dataList-cell:last-child, .block-topRadiusContent.dataList thead:first-child .dataList-row:first-child>.dataList-cell:last-child, .block-topRadiusContent>.dataList:first-child thead:first-child .dataList-row:first-child>.dataList-cell:last-child {
+    border-top-right-radius: 8px;
+}
+.memberHeader-separator {
+	background: #2d2d2d ;
+	color: #2d2d2d;
+	border-color: #2d2d2d ;
+}
+.messageNotice {
+    margin: 6px 0;
+    padding: 6px 10px;
+    color: #ffffff;
+    background: #191919;
+    font-size: 12px;
+    border-left: 2px solid #e60000;
+    border-radius: 5px;
+}
+.tooltip--bookmark .tooltip-content, .tooltip--member .tooltip-content, .tooltip--share .tooltip-content {
+    color: #dae1f3;
+    background: #2d2d2d;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #202020;
+    box-shadow: 0 5px 10px 0rgba(0,0,0,0.35);
+}
+.p-footer {
+    font-size: 13px;
+    color: rgba(255,255,255,0.8);
+    background: rgb(25 25 25);
+}
+.p-footer a {
+    color: #d6d6d6;
+}
+.xentr_stats_text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #d6d6d6;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #191919;
+}
+.p-footer-inner {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    background: #191919;
+}
+.xentr-statistics.block { 
+    margin-bottom: 0;
+    background-color: #191919;
+}
+.xentr_stats_col{ 
+	
+    background: rgb(25 25 25);
+    flex: 1 1 auto;
+    margin: 3px;
+    height: 60px;
+    padding: 5px 6px;
+    position: relative;
+    border-radius: 13px;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.reactTooltip {
+    background: #2d2d2d;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    border: 3px solid #404040;
+    border-radius: 8px;
+}
+.p-footer-copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    background: url(https://i.imgur.com/Q4s4kOO.gif);
+}
+.username[data-user-id="2008"] span {
+    -webkit-animation: s-username 6s linear infinite;
+    -moz-animation: s-username 6s linear infinite;
+    -ms-animation: s-username 6s linear infinite;
+    -o-animation: s-username 6s linear infinite;
+    animation: s-username 6s linear infinite;
+    text-shadow: #171617 1px 1px 3px;
+    background: url(https://i.imgur.com/Q4s4kOO.gif); 
+   
+}
+.username[data-user-id="1739"] span {
+    animation: s-username 10s linear infinite;
+    text-shadow: #171617 1px 1px 3px;
+    background: url(https://i.imgur.com/Q4s4kOO.gif); 
+}
+.userBanner.userBanner--red {
+    color: #fff;
+    background: #d80000;
+    border-color: #ff0c0c;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+}
+.username[data-user-id="5668"] span {
+    -webkit-animation: s-username 6s linear infinite;
+    -moz-animation: s-username 6s linear infinite;
+    -ms-animation: s-username 6s linear infinite;
+    -o-animation: s-username 6s linear infinite;
+    animation: s-username 6s linear infinite;
+    text-shadow: #171617 1px 1px 3px;
+    background: url(https://i.imgur.com/Q4s4kOO.gif);
+}
+.userBanner.userBanner--developer {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    color: white;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+.userBanner.userBanner--phil {
+    background: linear-gradient(90deg, #00b4dd 0%, #094ef1 100%, #00ddc8);
+    color: #f5f5f5;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+.userBanner.admin {
+    color: black;
+    background-color: #7FFFD4;
+    font-size: 68%;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 143px;
+    height: 33px;
+}
+    
+.userBanner.userBanner--green {
+    color: #fff;
+    background: #008000;
+    border-color: #004d00;
+    font-weight: bolder;
+    width: 140px;
+    height: 20px;
+    font-style: normal;
+    padding-top: 2px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.userBanner.userBanner--skyBlue {
+    color: #fff;
+    background: #7cc3e0d1;
+    border-color: #fdfeff63;
+    font-size: 90%;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 11px;
+    width: 140px;
+    
+}
+.userBanner.userBanner--orange {
+    color: #000;
+    background: #ffcb00;
+    border-color: #ffd533;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 4px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+.userBanner.userBanner--royalBlue {
+    color: #fff;
+    background: #4169e1;
+    border-color: #6d8ce8;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: -10px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+
+.userBanner.userBanner--yellow {
+    color: #000;
+    background: #ffff91;
+    border-color: #ffffc4;
+    border-color: #e6e687;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+.userBanner.userBanner--gray {
+    color: #fff;
+    background: #808080;
+    border-color: #676767;
+    font-size: 80%;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 11px;
+    width: 143px;
+}
+.userBanner.userBanner--rykvo {
+    background-image: linear-gradient(to right, #ba55d3 0%, #ba55d3 0%, #ba55d3 0%, #ba55d3 33%, #ba55d3 66%, #ba55d3 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 70%;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+}
+.userBanner.userBanner--silver {
+    color: #000;
+    background: #c0c0c0;
+    border-color: #a7a7a7;
+    font-size: 90%;
+    width: 140px;
+    height: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px 12px;
+    border-radius: 11px;
+    text-align: center;
+    display: inline-block;
+}
+.username--style3 {
+    color: red;
+    text-shadow: red 1px 1px 3px;
+}
+.username--style20 {
+    text-shadow: royalblue 1px 1px 3px;
+    color: royalblue;
+    
+}
+.username--style7 {
+    text-shadow: #e68a00 1px 1px 3px;
+    color: #e68a00;
+}
+.username--style8 {
+    text-shadow: #51bbbb 1px 1px 3px;
+    color: #51bbbb;
+}
+.label.label--red {
+    color: #fff;
+    background: #e20000;
+    border-color: #af0000;
+    border-radius: 8px;
+}
+.label.label--blue {
+    color: #fff;
+    background: #0008e3;
+    border-color: #0006b0;
+    border-radius: 8px;
+}
+.label.label--orange {
+    color: #000;
+    background: #ffcb00;
+    border-color: #cca200;
+    border-radius: 8px;
+}
+.label.label--green {
+    color: #fff;
+    background: #008000;
+    border-color: #004d00;
+    border-radius: 8px;
+}
+.label.label--gray {
+    color: #fff;
+    background: #808080;
+    border-color: #676767;
+    border-radius: 8px;
+}
+.label.label--royalBlue {
+    color: #fff;
+    background: #4169e1;
+    border-color: #214cce;
+    border-radius: 8px;
+}
+.overlay-title {
+    display: none;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #dae1f3;
+    background: #3b425c;
+    border-bottom: 1px solid #63b2656b;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    background: linear-gradient(0deg, #191919, #2d2d2d);
+}
+.dataList-cell.dataList-cell--alt, .dataList-cell.dataList-cell--action {
+    background: #2d2d2d;
+}
+.block {
+	background: #2d2d2d;
+}
+.overlay {
+	background: #2d2d2d;
+	border-left: 1px solid #2d2d2d;
+	border-right: 1px solid #2d2d2d;
+	border-top: 2px solid #2d2d2d;
+}
+.is-modalOpen, .is-modalOverlayOpen {
+	background: #2d2d2d;
+}
+.has-js, .template-member_view, .has-no-touchevents, .has-passiveeventlisteners, .has-no-hiddenscroll, .has-os-windows, .has-browser-chrome, .has-pointer-nav {
+	background: #2d2d2d;
+}
+.overlay-content {
+	background: #2d2d2d;
+}
+
+
+.block-body, .block-row {
+	border-bottom: 1px solid #00ba7885;
+}
+
+.formRow>dt {
+    border-right: 1px solid transparent;
+    background: #2d2d2d;
+    border-color: #151314;
+    text-align: right;
+    width: 33%;
+    padding: 15px 10px 15px 10px;
+}
+.formSubmitRow-controls {
+    position: relative;
+    padding-left: 33%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #2d2d2d;
+}
+
+.formSubmitRow-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(45 45 45);
+    
+}
+
+.formRow .iconic>i, .inputGroup .iconic>i, .inputChoices .iconic>i, .block-footer .iconic>i, .dataList-cell .iconic>i, .message-cell--extra .iconic>i, .formRow.dataList-cell--fa>a>i, .inputGroup.dataList-cell--fa>a>i, .inputChoices.dataList-cell--fa>a>i, .block-footer.dataList-cell--fa>a>i, .dataList-cell.dataList-cell--fa>a>i, .message-cell--extra.dataList-cell--fa>a>i, .formRow .iconic svg, .inputGroup .iconic svg, .inputChoices .iconic svg, .block-footer .iconic svg, .dataList-cell .iconic svg, .message-cell--extra .iconic svg, .formRow.dataList-cell--fa>a svg, .inputGroup.dataList-cell--fa>a svg, .inputChoices.dataList-cell--fa>a svg, .block-footer.dataList-cell--fa>a svg, .dataList-cell.dataList-cell--fa>a svg, .message-cell--extra.dataList-cell--fa>a svg {
+    color: #53b589;
+    fill: currentColor;
+}
+.pairJustifier {
+	border-bottom: 1px solid #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: rgb(34 142 93);
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(45 45 45);
+}
+
+.select2-results__group {
+    display: block;
+    padding: 6px;
+    background: #191919;
+}
+.select2-results>.select2-results__options li[role="group"] {
+    padding: 0;
+    background: #2d2d2d;
+}
+.select2 .select2-selection ul>li.select2-selection__choice {
+    float: left;
+    font-size: 15px;
+    border-radius: 4px;
+    color: #abb4c8;
+    background: #191919;
+    border: 1px solid #191919;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+    cursor: default;
+}
+.select2-results>.select2-results__options li {
+    padding: 6px;
+    line-height: 24px;
+    background: #2d2d2d;
+}
+.inputTypes-input:checked+.inputTypes-display {
+    border-bottom-color: #191919;
+}
+.inputTypes-input:checked+.inputTypes-display, .inputTypes-display:hover {
+    color: #dae1f3;
+    border-color: #5a5a5a;
+    background: linear-gradient(180deg, #605f5f, #484848);
+}
+
+.inputGroup.inputGroup--joined .inputGroup-text {
+    border: 1px solid #191919;
+    
+    background: #191919;
+    text-align: center;
+    padding: 3px 6px;
+}
+.blockMessage {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    color: #eff2f9;
+    background: #0e0e0e;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #191919;
+    border-radius: 10px;
+}
+
+.structItem-pageJump a {
+    color: #fff;
+    background: #40e79ba6;
+    border: 1px solid #61d19e7d;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 1px 2px;
+    opacity: .5;
+    transition: all .25s ease;
+    font-weight: bold;
+}
+
+.fr-view blockquote {
+    background: #2d2d2d;
+    border: 1px solid #2d2d2d;
+    border-left: 3px solid #ea4c4c;
+    margin: 0.5em 0;
+    padding: 6px 10px;
+    font-size: 13px;
+    display: flow-root;
+}
+.fr-view blockquote[data-quote]:before {
+    display: block;
+    content: attr(data-quote) ":";
+    font-size: 13px;
+    color: #e21a0b;
+    background: #161616b8;
+    padding: 6px 10px;
+    margin: -6px -10px 6px -10px;
+}
+.button.button--link, a.button.button--link {
+    background: #2d2d2d;
+    color: #dae1f3;
+    border-color: #2d2d2d #0000004d #505050 #3c3c3c;
+}
+    
+option{
+    background: #2d2d2d;
+    font-size:12pt;
+}   
+.inputChoices{
+    background-color: #2d2d2d;
+}    
+.p-body-content>:first-child, .p-body-pageContent>:first-child, .p-body-sideNav>:first-child, .p-body-sideNavContent>:first-child, .p-body-sidebar>:first-child {
+    margin-top: 0;
+    border-radius: 20px;
+}
+.inputGroup.inputGroup--joined .input:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: none;
+    background: #191919;
+    /* border-color: #228e5d; */
+}
+.inputNumber-button {
+    position: relative;
+    font-family: 'Font Awesome 5 Pro';
+    /* font-size: inherit; */
+    /* font-style: normal; */
+    font-weight: 400;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #4ffbad;
+    font-size: 1.0em;
+    font-style: normal !important;
+    line-height: .75em;
+    /* vertical-align: -15%; */
+    width: 45px;
+    justify-content: center;
+    /* text-align: center; */
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    /* -webkit-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.tabs{
+    background: #2d2d2d;
+}
+.block-minorTabHeader .tabs-tab.is-active {
+    color: #fff;
+    border-color: #fff;
+}
+.fr-element{
+    background: #373535;
+}
+.input:focus{
+     background: #282727;
+}
+.inputGroup{
+    background: #2D2D2D;
+    border-color: #191919;
+}
+.inputGroup .input{
+    background: #191919;
+}
+.input.input--number[disabled]~.inputNumber-button {
+    cursor: default;
+    background: #191919;
+    border-color: #228e5d;
+}
+.input[disabled] {
+    color: #7c869d;
+    background: #191919;
+    border-radius: 1px;
+}
+.formSubmitRow.formSubmitRow--simple .formSubmitRow-controls, .formSubmitRow.formSubmitRow--standalone .formSubmitRow-controls {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    background: #2d2d2d;
+}
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a {
+    padding: 0 22px;
+    line-height: 200%;
+    display: flex;
+    cursor: pointer;
+    white-space: nowrap;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #373535;
+    
+}
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0;
+    min-width: 72px;
+    background: #191919;
+}
+.fr-popup .fr-layer.fr-color-hex-layer {
+    margin: 0;
+    padding: 20px;
+    padding-top: 0;
+    float: left;
+    background: #191919;
+}
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active, .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active, .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active {
+    fill: rgb(34 142 93);
+    background: #5e5e5e;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}
+.fr-popup .fr-color-set.fr-selected-set {
+    display: block;
+    padding: 20px;
+    padding-bottom: 0;
+    background: #191919;
+    border-radius: 10px;
+}
+.fr-popup .fr-input-line input[type="text"], .fr-popup .fr-input-line textarea {
+    font-size: 14px;
+    color: #dae1f3;
+    background: #373535;
+    border: 1px solid #167755;
+    /* border-top-color: var(--input-border-heavy); */
+    /* border-right-color: var(--input-border-light); */
+    /* border-bottom-color: var(--input-border-light); */
+    /* border-left-color: var(--input-border-heavy); */
+    border-radius: 4px;
+    padding: 6px;
+    margin: 0;
+    line-height: 1.4;
+    -webkit-transition: background .25s ease, color .25s ease;
+    transition: background .25s ease, color .25s ease;
+    height: auto;
+}
+.fr-popup .fr-layer.fr-color-hex-layer .fr-action-buttons button.fr-command {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    /* background-clip: padding-box; */
+    font-size: 13px;
+    height: 32px;
+    width: 30px;
+    background: #228e5d;
+    border-color: #373535;
+}
+.fr-toolbar .fr-more-toolbar.fr-expanded {
+    height: 36px;
+    background: #191919;
+    border-radius: 6px;
+}
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a.fr-active {
+    background: #228e5d8c;
+}
+.fr-popup .fr-input-line {
+    padding: 18px 0 8px;
+    background: #191919;
+}
+.fr-popup .fr-action-buttons button.fr-command {
+    /* display: inline-block; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    /* -webkit-transition: background-color .25s ease; */
+    transition: background-color .25s ease;
+    font-size: 13px;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    text-align: center;
+    color: #fff;
+    background: #228e5d;
+    /* min-width: 80px; */
+    border-color: #191919 #191919 #191919 #191919;
+    height: auto;
+    min-width: 0;
+    line-height: 1.4;
+}
+.fr-popup .fr-buttons.fr-tabs {
+    /* border-radius: 6px 6px 0 0; */
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-background-clip: padding;
+    /* -webkit-background-clip: padding-box; */
+    background-clip: padding-box;
+    background-color: #191919;
+    overflow: hidden;
+}
+.fr-toolbar .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active, .fr-popup .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active, .fr-modal .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active, .fr-toolbar .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active-tab, .fr-popup .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active-tab, .fr-modal .fr-tabs .fr-command.fr-btn:not(:hover):not(:focus).fr-active-tab {
+    background: #272727;
+    border: 1px solid #272727;
+}
+.fr-popup .fr-input-line {
+    padding: 18px 0 8px;
+    border-radius: 8px;
+}
+.fr-popup .fr-table-size .fr-select-table-size>span.hover>span {
+    background: rgb(34 142 93);
+    border: solid 1px #878787;
+}
+.fr-popup {
+    position: absolute;
+    /* display: none; */
+    color: #dae1f3;
+    /* background: #191919; */
+    -webkit-box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 3px 5px -1pxrgba(0,0,0,0.2),0 6px 10px 0rgba(0,0,0,0.14),0 1px 18px 0rgba(0,0,0,0.12);
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* user-select: none; */
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-top: 10px;
+    /* z-index: 2147483635; */
+    text-align: left;
+    /* border-radius: 6px; */
+    -moz-border-radius: 6px;
+    /* -webkit-border-radius: 6px; */
+    -moz-background-clip: padding;
+    /* -webkit-background-clip: padding-box; */
+    /* background-clip: padding-box; */
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.2;
+    border-radius: 10px;
+}
+.menu--emoji .menu-header, .menu--gif .menu-header {
+    background: none;
+    color: #f2f3f2;
+    border-top: 1px solid #1e2337;
+    border-bottom: 1px solid #228e5d;
+    background-color: #191919;
+    z-index: 100;
+    font-size: 14px;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 6px 10px;
+    top: 0;
+}
+.CodeMirror-scroll, .CodeMirror-sizer, .CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background: #464646;
+}
+.fr-toolbar .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active) {
+    background: #191919;
+}
+.fr-box.fr-basic.is-preview, .fr-box.fr-basic.is-preview .fr-toolbar .fr-btn-grp.rte-tab--preview {
+    background: #191919;
+    border-color: #2a2a2a;
+}
+.fr-box.fr-basic[data-size="XL"] .rte-tab--preview span.fr-sr-only {
+    font-size: 13px;
+    position: static;
+    width: auto;
+    height: auto;
+    clip: auto;
+    overflow: visible;
+    margin: 0;
+    color: #f3f3f3;
+}
+.fr-toolbar .fr-command.fr-btn.fr-active:not(.fr-disabled) {
+    color: #48cd90;
+}
+.memberHeader-content, .memberHeader-content--info {
+    background: none;
+}
+.menu-linkRow.is-selected, .menu-linkRow:hover, .menu-linkRow:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background: #020202b8;
+    border-left-color: rgb(34 142 93);
+    
+}
+
+
+.listPlain:hover {
+        background: #272727;
+    }
+.contentRow:hover {
+        background: #272727;
+    }
+    
+.fauxBlockLink-blockLink {
+       background: #272727;
+    }
+    
+.js-alertsMenuBody.fauxBlockLink-blockLink {
+        background: #272727;
+    }
+.menu-scroller {
+        background: #272727;
+    }
+
+.listPlain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #272727;
+}
+.alert, .js-alert, .menu-row, .menu-row--separated, .menu-row--clickable {
+    background: #272727;
+}
+.menu-separator, .menu-separator--hard {
+        border-color: #27ef9466;
+    }
+
+.menu-row.menu-row--clickable:hover {
+    background: #272727;
+}
+.xentr_stats_col {
+        background: #191919;
+    }
+.xentr_stats_col:hover {
+        background: #191919;
+    }
+.fr-popup .fr-input-line input[type="text"], .fr-popup .fr-input-line textarea {
+    font-size: 14px;
+    color: #dae1f3;
+    background: #373535;
+    border: 1px solid #167755;
+    /* border-top-color: var(--input-border-heavy); */
+    /* border-right-color: var(--input-border-light); */
+    /* border-bottom-color: var(--input-border-light); */
+    /* border-left-color: var(--input-border-heavy); */
+    border-radius: 4px;
+    padding: 6px;
+    margin: 0;
+    line-height: 1.4;
+    -webkit-transition: background .25s ease, color .25s ease;
+    transition: background .25s ease, color .25s ease;
+    height: auto;
+}
+.fr-popup .fr-input-line input[type="text"]:focus, .fr-popup .fr-input-line textarea:focus {
+    border: 1px solid #191919;
+    /* border-top-color: var(--input-border-heavy); */
+    /* border-right-color: var(--input-border-light); */
+    /* border-bottom-color: var(--input-border-light); */
+    /* border-left-color: var(--input-border-heavy); */
+    padding: 6px;
+    background: #373535;
+    /* --o-border-heavy: #3c5e71; */
+    /* --o-border-light: #4a748c; */
+}
+.fr-toolbar .fr-command.fr-btn.fr-btn-active-popup, .fr-popup .fr-command.fr-btn.fr-btn-active-popup, .fr-modal .fr-command.fr-btn.fr-btn-active-popup {
+    background: #040404;
+}
+.fr-box textarea.input {
+    border: none;
+}
+.inlineModBar-inner {
+    padding-left: max(10px, env(safe-area-inset-left));
+    padding-right: max(10px, env(safe-area-inset-right));
+    background: #191919;
+}
+.inlineModBar.is-active:first-of-type {
+    box-shadow: 0 0 8px 3pxrgba(0,0,0,0.3);
+    background: #191919;
+}
+.button.button--scroll, a.button.button--scroll {
+    background: rgb(34 142 93);
+    padding: 5px 8px;
+    box-shadow: 1px 2px 2px 0rgba(0,0,0,0.25);
+}
+.pageNav-page>a {
+    padding-left: 11px;
+    padding-right: 11px;
+    background: #11824e;
+}
+a {
+    color: #dae1f3;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.autoCompleteList {
+        background: #373535;
+        border: 3px solid #202020;
+        border-radius: 15px;
+    }
+
+.fr-wrapper ::selection {
+    background: #191919;
+    color: #dae1f3;
+}
+/*
+.autoCompleteList:hover {
+        background: #373535;
+    }
+*/
+.autoCompleteList li.is-selected {
+    background: #212121;
+    border-radius: 12px;
+    border-bottom: 3px solid #6cfbbaa6;
+}
+.fr-box, .bbWrapper, .fr-ltr, .fr-basic, .fr-top, .is-focused {
+        background: #2d2d2d;
+    }
+
+.input:focus, .input.is-focused {
+        background: #2d2d2d;   
+    border: 3px solid #191919;
+    border-radius: 12px;
+    }
+.fr-box textarea.input {
+    /* border: 5px solid #3e3e3e; */
+    background: #3e3e3e;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
